@@ -3,8 +3,8 @@
 cd /home/coder/project/autograde/
 git clone https://github.com/hergin/cs690-coursera-isprime
 
-cp /shared/submission/PrimeService.cs /home/coder/project/autograde/cs690-coursera-isprime/PrimeService/PrimeService.cs
-cd /home/coder/project/autograde/cs690-coursera-isprime
+cp /shared/submission/PrimeService.cs /home/coder/project/autograde/cs690-coursera-isprime/full/PrimeService/PrimeService.cs
+cd /home/coder/project/autograde/cs690-coursera-isprime/full
 
 test_result="$(dotnet test --nologo -v q)"
 
